@@ -1,10 +1,15 @@
 *{
     text-align: center; 
   }
-  body{
-  background-color: rgb(165, 234, 115);
-  }
+ h1 {
+  color: rgb(192, 147, 240);
+  font-family: 'Times New Roman', Times, serif;
+ }
   h2{
-    color: rgb(52, 39, 66);
+    color: rgb(160, 90, 235);
     font-family: 'Times New Roman', Times, serif;
+  }
+ 
+  .aze {
+    border: 2px solid black;
   }

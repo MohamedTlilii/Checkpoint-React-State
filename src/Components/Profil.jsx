@@ -21,7 +21,7 @@ export default class ClassComponent extends Component {
       <div>
         <img src={this.state.img} alt="" />
         <h1>{this.state.name}</h1>
-        <p>{this.state.profession}</p>
+        <h2>{this.state.profession}</h2>
         <p>{this.state.bio}</p>
         <h2>{this.state.timer} </h2>
       </div>

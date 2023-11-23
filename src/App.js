@@ -10,16 +10,15 @@ export default class App extends Component {
   }
   showPerson = () => {
     this.setState({
-      ...this.state,
       show: !this.state.show,
     });
   };
   render() {
     return (
-      <div>
+      <div className="hero">
         <button onClick={this.showPerson}>SHOW</button>
-
-        {this.state.show ? <ClassComponent /> : null}
+        {/* {this.state.show ? <ClassComponent /> : null} */}
+        {this.state.show && <ClassComponent />}
       </div>
     );
   }
