@@ -1,14 +1,14 @@
-import React, { Component } from 'react'
-import ClassComponent from './Components/Profil'
+import React, { Component } from "react";
+import ClassComponent from "./Components/Profil";
 
 export default class App extends Component {
-  constructor(){
+  constructor() {
     super();
-    this.state= {
-      show : false ,
-    }
+    this.state = {
+      show: false,
+    };
   }
-  handleShowPerson = () => {
+  showPerson = () => {
     this.setState({
       ...this.state,
       show: !this.state.show,
@@ -17,26 +17,10 @@ export default class App extends Component {
   render() {
     return (
       <div>
-      <>
-        <button
-          onClick={this.handleShowPerson}
-          style={{
-            width: "50%",
-            height: "30px",
-            marginTop: "5%",
-            backgroundColor: "pink",
-            border: "none",
-            borderRadius: "100px",
-          }}
-        >
-          click 
-        </button>
+        <button onClick={this.showPerson}>SHOW</button>
 
         {this.state.show ? <ClassComponent /> : null}
-      </>
-     
       </div>
-    )
+    );
   }
 }
-
