@@ -1,15 +1,49 @@
-*{
-    text-align: center; 
-  }
- h1 {
-  color: rgb(192, 147, 240);
-  font-family: 'Times New Roman', Times, serif;
- }
-  h2{
-    color: rgb(160, 90, 235);
-    font-family: 'Times New Roman', Times, serif;
-  }
- 
-  .aze {
-    border: 2px solid black;
-  }
+.App {
+  text-align: center;
+  background-image: url(https://www.udacity.com/blog/wp-content/uploads/2021/05/pexels-markus-spiske-4383298-scaled.jpg);
+  background-size: cover;
+  /* background-position: center; */
+  background-color: rgb(22, 24, 22);
+  height: 150vh;
+}
+.card {
+  border: 5px solid black;
+  width: fit-content;
+  
+  margin: auto;
+  background-image: url(https://www.udacity.com/blog/wp-content/uploads/2021/05/pexels-markus-spiske-4383298-scaled.jpg);
+}
+h1 {
+  color: azure;
+  /* background-color: black; */
+}
+p {
+  color: azure;
+  /* background-color: black; */
+}
+.timer {
+  border: 4px solid rgb(249, 246, 246);
+  width: 55px;
+  margin: auto;
+
+}
+
+.card2 {
+  border: 5px solid black;
+  width: 250px;
+  margin: 15px;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPicePVFQTT6xtsrJ8FqQLDfHg68F2wt99KQ&usqp=CAU);
+  background-size: cover;
+  
+}
+
+.linkd {
+  color: rgb(8, 13, 13);
+  /* background-color: black; */
+  font-size: medium;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.button {
+  color: rgb(0, 0, 0);
+  font-size: larger;
+}
