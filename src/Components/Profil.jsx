@@ -20,7 +20,8 @@ componentDidMount() {
   render() {
     return (
       <div className="card">
-        <img src={this.state.image} alt="" />
+        <img style={{  borderRadius:' 800px'
+}} src={this.state.image} alt="" />
         <h1>{this.state.name}</h1>
         <h1>{this.state.profession}</h1>
         <p>{this.state.bio}</p>

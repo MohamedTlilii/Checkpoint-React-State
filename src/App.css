@@ -6,11 +6,13 @@
   background-color: rgb(22, 24, 22);
   height: 150vh;
 }
+
 .card {
   border: 5px solid black;
   width: fit-content;
-  
+
   margin: auto;
+  border-radius: 20%;
   background-image: url(https://www.udacity.com/blog/wp-content/uploads/2021/05/pexels-markus-spiske-4383298-scaled.jpg);
 }
 h1 {
@@ -25,7 +27,7 @@ p {
   border: 4px solid rgb(249, 246, 246);
   width: 55px;
   margin: auto;
-
+  border-radius: 50px;
 }
 
 .card2 {
@@ -34,7 +36,7 @@ p {
   margin: 15px;
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPicePVFQTT6xtsrJ8FqQLDfHg68F2wt99KQ&usqp=CAU);
   background-size: cover;
-  
+  border-radius: 10%;
 }
 
 .linkd {
@@ -46,4 +48,5 @@ p {
 .button {
   color: rgb(0, 0, 0);
   font-size: larger;
+  border-radius: 20%;
 }

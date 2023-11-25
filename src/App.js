@@ -22,15 +22,17 @@ export default class App extends Component {
   render() {
     return (
       <div className="App">
+        <div>
         <button className="button" onClick={this.showperson}>
           PROFIL
         </button>
         {this.state.show && <Profil />}
-
-        <button className="button" onClick={this.nowcard}>
+        </div>
+        <div > <button className="button" onClick={this.nowcard}>
           CONTACT
         </button>
         {this.state.now && <Contact />}
+        </div>
       </div>
     );
   }
